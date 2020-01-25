@@ -76,7 +76,7 @@ namespace EjercicioRegistro.BLL
             }
             return paso;
         }
-        //Buscar una persona guardada
+        //Buscar una persona guardada.
         public static Persona Buscar(int Id) 
         {
             Contexto db = new Contexto();
