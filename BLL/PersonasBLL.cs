@@ -19,7 +19,7 @@ namespace EjercicioRegistro.BLL
 
             try
             {
-                if (db.Personas.Add(persona) != null)
+                if (db.Persona.Add(persona) != null)
                     paso = (db.SaveChanges()>0);
             }
             catch (Exception) 
@@ -61,7 +61,7 @@ namespace EjercicioRegistro.BLL
 
             try
             {
-                var Eliminar = db.Personas.Find(Id);
+                var Eliminar = db.Persona.Find(Id);
                 db.Entry(Eliminar).State = EntityState.Deleted;
 
                 paso = (db.SaveChanges() > 0);
@@ -84,7 +84,7 @@ namespace EjercicioRegistro.BLL
 
             try
             {
-                persona = db.Personas.Find(Id);
+                persona = db.Persona.Find(Id);
             }
             catch (Exception)
             {
@@ -103,7 +103,7 @@ namespace EjercicioRegistro.BLL
 
             try
             {
-                Lista = db.Personas.Where(persona).ToList();
+                Lista = db.Persona.Where(persona).ToList();
             }
             catch (Exception)
             {

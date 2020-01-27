@@ -42,7 +42,7 @@ namespace EjercicioRegistro
         private Persona LlenarClase()
         {
             Persona persona = new Persona();
-            persona.ID = Convert.ToInt32(ID_TextBox.Text);
+            //persona.ID = Convert.ToInt32(ID_TextBox.Text);
             persona.Nombre = Nombre_TexBox.Text;
             persona.Apellido = Apellido_TexBox.Text;
             persona.Telefono = Telefono_TextBox.Text;
