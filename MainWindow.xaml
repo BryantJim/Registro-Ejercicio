@@ -17,7 +17,7 @@
         <TextBlock HorizontalAlignment="Left" Height="17" Margin="18,127,0,0" Text="Apellidos" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
         <TextBlock HorizontalAlignment="Left" Height="18" Margin="22,168,0,0" Text="Telefono" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
         <TextBlock HorizontalAlignment="Left" Height="22" Margin="20,0,0,0" Text="Cedula" TextWrapping="Wrap" VerticalAlignment="Center" Width="56"/>
-        <TextBlock HorizontalAlignment="Left" Height="24" Margin="21,248,0,0" Text="Direccion" TextWrapping="Wrap" VerticalAlignment="Top" Width="83"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="21,248,0,0" Text="Dirección" TextWrapping="Wrap" VerticalAlignment="Top" Width="83"/>
         <TextBlock HorizontalAlignment="Left" Height="23" Margin="20,287,0,0" Text="Fecha Nacimiento" TextWrapping="Wrap" VerticalAlignment="Top" Width="112"/>
         <TextBox x:Name="ID_TextBox" HorizontalAlignment="Left" Height="20" Margin="160,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="87" Background="White"/>
         <TextBox x:Name="Nombre_TexBox" HorizontalAlignment="Left" Height="19" Margin="160,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>

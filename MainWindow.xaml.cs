@@ -137,7 +137,7 @@ namespace EjercicioRegistro
             {
                 if(!ExisteEnLaBaseDatos())
                 {
-                    System.Windows.MessageBox.Show("No se puede modificar una persona que no existe");
+                    MessageBox.Show("No se puede modificar una persona que no existe");
                     return;
                 }
                 paso = PersonasBLL.Modificar(persona);
@@ -147,11 +147,11 @@ namespace EjercicioRegistro
             if (paso)
             {
                 Limpiar();
-                System.Windows.MessageBox.Show("Persona fue Guardada", "Exito!");
+                MessageBox.Show("Persona fue Guardada", "Exito!");
             }
             else
             {
-                System.Windows.MessageBox.Show("Persona no se pudo guardar");
+                MessageBox.Show("Persona no se pudo guardar");
             }
         }
 
